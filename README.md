@@ -1,0 +1,4 @@
+- 👋 Hello! I’m @RealFoodEater
+- 💻 I’m interested in computing/coding
+- 👨‍💻 I’m currently learning HTML5, JavaScript and CSS
+- 🔗 You can reach me on Discord with 'https://discord.gg/AZfQqNcu74'
