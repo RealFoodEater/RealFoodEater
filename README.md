@@ -1,9 +1,8 @@
 <h1><strong>Hey! 👋</strong></h1>
-<p>TheUnusualDev</p>
 
 <br>
 <h2>A bit about me!</h2>
-<p>I am a young front end webstie developer. I am currently learning full stack languages and properties.</p>
+<p>My name is TheUnusualDev or Dev. I am a young front end webstie developer, currently learning full stack languages and properties.</p>
 <br>
 
 <h2>🛫 My Traits</h2>
