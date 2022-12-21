@@ -1,39 +1,23 @@
-<h1><strong>Hey! 👋</strong></h1>
+<h1><strong>hey, i'm dev 👋</strong></h1>
 
 <br>
 <h2>A bit about me!</h2>
-<p>My name is TheUnusualDev or Dev. I am a young front end webstie developer, currently learning full stack languages and properties.</p>
+<p>I'm Dev, a full stack website developer and java developer</p>
 <br>
 
 <h2>🛫 My Traits</h2>
 <ul>
   <li>Leadership</li>
+  <li>Technolodgy</li>
   <li>Programming</li>
-  <li>Computing</li>
 </ul>
 <br>
-
-<h2>📁 Working With</h2>
-<ul>
-  <li><a href='https://moonlighthq.net'>Moonlight</a></li>
-</ul>
 
 <br>
 <h2>💻 Currently Developing</h2>
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>TAILWINDCSS</li>
-  <li>PYTHON</li>
-</ul>
-
-<br>
-<h2>🌱 Learning</h2>
-<ul>
-  <li>JAVASCRIPT</li>
-  <li>LARAVEL</li>
-  <li>PHP</li>
-  <li>C#</li>
+  <li>HTML,CSS,JS</li>
+  <li>JAVA</li>
 </ul>
 
 <br>
