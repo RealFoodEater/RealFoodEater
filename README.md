@@ -1,30 +1,28 @@
-<h1><strong>hey, i'm dev 👋</strong></h1>
+<p>
+    <img src="https://github-readme-stats.vercel.app/api?username=theunusualdev&show_icons=true&count_private=true&include_all_commits=false&text_color=000000&bg_color=45,ff0000,0000ff&ring_color=00fb10&border_color=000000" alt="My details" align="left" height="150px"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=theunusualdev&langs_count=3&theme=dark&layout=compact&border_color=000000" alt="Most used languages" align="right" height="150px"/>
+  </p>
+    <img src="images/userstats.svg" alt="user stats" align="center"/>
+    name: user-statistician
 
-<br>
-<h2>A bit about me!</h2>
-<p>I'm Dev, a full stack website developer and java developer</p>
-<br>
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
-<h2>🛫 My Traits</h2>
-<ul>
-  <li>Leadership</li>
-  <li>Technolodgy</li>
-  <li>Programming</li>
-</ul>
-<br>
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+      
+    steps:
+    - uses: actions/checkout@v2
 
-<br>
-<h2>💻 Currently Developing</h2>
-<ul>
-  <li>HTML,CSS,JS</li>
-  <li>JAVA</li>
-</ul>
-
-<br>
-<h2>📮 How to Reach Me</h2>
-<ul>
-  <li><a href='mailto:dev@theunusualdev.com'>Email</a></li>
-  <li><a href='solo.to/theunusualdev'>Solo.to</a></li>
-  <li><a href='twitter.com/theunusualdev'>Twitter</a></li>
-  <li><a href='theunusualdev.com'>My Website</a></li>
-</ul>
+    - name: Generate the user stats image
+      uses: cicirello/user-statistician@v1
+      with:
+        colors: dark-dimmed
+        custom-title: My GitHub Statistics
+        max-languages: 100
+        hide-keys: 'languages'
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
